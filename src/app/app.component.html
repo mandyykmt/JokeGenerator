@@ -1,0 +1,10 @@
+<div class="center-it" (click)="press()">
+  <div *ngIf="joke$ | async as j else noJoke">
+    <div class="setup">{{ j.setup }}</div>
+    <div class="punchline">{{ j.punchline }}</div>
+  </div>
+</div>
+
+<ng-template #noJoke>
+  <h1 class="pressforjoke">Press here for a joke</h1>
+</ng-template>

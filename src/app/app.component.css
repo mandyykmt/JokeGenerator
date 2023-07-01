@@ -1,0 +1,22 @@
+.center-it {
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.setup {
+    font-size: 2em;
+    margin-top: 5vh;
+    color: blue
+}
+
+.punchline {
+    font-size: 3em;
+    
+}
+
+.pressforjoke {
+    font-size: 4em;
+}
